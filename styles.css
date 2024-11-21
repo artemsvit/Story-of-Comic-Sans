@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Comic Sans MS';
-    src: url('https://artemsvit.github.io/Story-of-Comic-Sans/fonts/comic-sans-ms.woff2') format('woff2'),
-         url('https://artemsvit.github.io/Story-of-Comic-Sans/fonts/comic-sans-ms.woff') format('woff'),
-         url('https://artemsvit.github.io/Story-of-Comic-Sans/fonts/comic-sans-ms.ttf') format('truetype');
+    src: url('fonts/comic-sans-ms.woff2') format('woff2'),
+         url('fonts/comic-sans-ms.woff') format('woff'),
+         url('fonts/comic-sans-ms.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -10,9 +10,9 @@
 
 @font-face {
     font-family: 'Comic Sans MS';
-    src: url('https://artemsvit.github.io/Story-of-Comic-Sans/fonts/comic-sans-ms-bold.woff2') format('woff2'),
-         url('https://artemsvit.github.io/Story-of-Comic-Sans/fonts/comic-sans-ms-bold.woff') format('woff'),
-         url('https://artemsvit.github.io/Story-of-Comic-Sans/fonts/comic-sans-ms-bold.ttf') format('truetype');
+    src: url('fonts/comic-sans-ms-bold.woff2') format('woff2'),
+         url('fonts/comic-sans-ms-bold.woff') format('woff'),
+         url('fonts/comic-sans-ms-bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -25,6 +25,7 @@
     --background-color: #ffff00;
     --text-color: #000000;
     --section-padding: 4rem 0;
+    --main-font: 'Comic Sans MS', cursive;
 }
 
 * {
@@ -33,87 +34,8 @@
     box-sizing: border-box;
 }
 
-@keyframes rainbow {
-    0% { color: red; }
-    20% { color: yellow; }
-    40% { color: lime; }
-    60% { color: blue; }
-    80% { color: magenta; }
-    100% { color: red; }
-}
-
-@keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-@keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-        filter: brightness(100%);
-    }
-    50% {
-        transform: scale(1.05);
-        filter: brightness(110%);
-    }
-    100% {
-        transform: scale(1);
-        filter: brightness(100%);
-    }
-}
-
-@keyframes rainbow-text {
-    0% { color: red; }
-    14% { color: orange; }
-    28% { color: yellow; }
-    42% { color: green; }
-    57% { color: blue; }
-    71% { color: indigo; }
-    85% { color: violet; }
-    100% { color: red; }
-}
-
-@keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    25% { transform: translateX(-5px) rotate(-5deg); }
-    75% { transform: translateX(5px) rotate(5deg); }
-}
-
-@keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-}
-
-@keyframes disco {
-    0% { background-color: #ff0000; }
-    20% { background-color: #00ff00; }
-    40% { background-color: #0000ff; }
-    60% { background-color: #ff00ff; }
-    80% { background-color: #ffff00; }
-    100% { background-color: #ff0000; }
-}
-
-@keyframes hue-rotate {
-    100% { filter: hue-rotate(360deg); }
-}
-
-@keyframes strobeColors {
-    0% { background-color: #ff0000; }
-    20% { background-color: #00ff00; }
-    40% { background-color: #0000ff; }
-    60% { background-color: #ff00ff; }
-    80% { background-color: #ffff00; }
-    100% { background-color: #00ffff; }
-}
-
 body {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: var(--main-font);
     line-height: 1.6;
     color: var(--text-color);
     background: 
@@ -127,6 +49,8 @@ body {
 }
 
 h1, h2, h3 {
+    font-family: var(--main-font);
+    font-weight: bold;
     animation: rainbow-text 5s linear infinite;
     text-shadow: 
         3px 3px 0 #ff0000,
@@ -180,6 +104,7 @@ nav {
     display: inline-block;
     font-size: 2.5em;
     font-weight: bold;
+    font-family: var(--main-font);
     background: linear-gradient(45deg, #ff6b6b, #ff8e53, #4CAF50, #2196F3);
     -webkit-background-clip: text;
     background-clip: text;
@@ -209,6 +134,7 @@ nav {
 }
 
 .nav-links a {
+    font-family: var(--main-font);
     color: var(--text-color);
     text-decoration: none;
     font-size: 1.2rem;
@@ -354,6 +280,7 @@ nav {
 }
 
 .feature h3 {
+    font-family: var(--main-font);
     color: #ffffff;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 0 #000000;
@@ -533,7 +460,7 @@ nav {
     border-radius: 10px;
     background: linear-gradient(45deg, #ff00ff, #00ff00);
     color: white;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: var(--main-font);
     cursor: pointer;
     transition: all 0.3s;
     text-align: left;
@@ -587,7 +514,7 @@ nav {
 
 /* RTL Support */
 [dir="rtl"] {
-    font-family: 'Comic Sans MS', 'Noto Sans Arabic', cursive;
+    font-family: var(--main-font), 'Noto Sans Arabic', cursive;
 }
 
 [dir="rtl"] nav ul {
@@ -606,11 +533,11 @@ nav {
 
 /* Font Support */
 [lang="zh"] {
-    font-family: 'Comic Sans MS', 'Microsoft YaHei', cursive;
+    font-family: var(--main-font), 'Microsoft YaHei', cursive;
 }
 
 [lang="ar"] {
-    font-family: 'Comic Sans MS', 'Noto Sans Arabic', cursive;
+    font-family: var(--main-font), 'Noto Sans Arabic', cursive;
 }
 
 /* Animation Adjustments for RTL */
@@ -1032,7 +959,7 @@ footer {
     padding: 10px 15px;
     resize: none;
     max-height: 100px;
-    font-family: inherit;
+    font-family: var(--main-font);
     font-size: 14px;
     line-height: 1.4;
 }
@@ -1101,7 +1028,7 @@ button {
     color: white;
     padding: 15px 30px;
     border-radius: 50px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: var(--main-font);
     font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.3s;
