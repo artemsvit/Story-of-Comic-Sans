@@ -312,21 +312,18 @@ nav {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    margin-top: 3rem;
+    padding: 2rem;
 }
 
 .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
     background: white;
     padding: 1rem;
-    border: 5px solid #ff00ff;
-    border-radius: 20px;
-    box-shadow: 
-        0 0 10px #ff0000,
-        0 0 20px #00ff00;
-    text-align: center;
-    transform: rotate(-1deg);
-    transition: all 0.3s ease;
-    overflow: hidden;
 }
 
 .gallery-item:hover {
@@ -336,22 +333,16 @@ nav {
         0 0 40px #00ff00;
 }
 
-.gallery-image {
+.gallery-item img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
-    margin-bottom: 1rem;
-    display: block;
-    background-color: #f0f0f0;
+    transition: all 0.3s ease;
 }
 
-.gallery-image[src] {
-    background-color: transparent;
-}
-
-.gallery-item:hover .gallery-image {
-    transform: scale(1.2) rotate(10deg);
+.gallery-item:hover img {
+    transform: scale(1.1);
 }
 
 .gallery-title {
@@ -1038,11 +1029,42 @@ button {
     cursor: pointer;
     transition: all 0.3s;
     animation: rainbow-text 5s linear infinite;
+    overflow: hidden;
+    position: relative;
 }
 
 button:hover {
-    transform: scale(1.1) rotate(5deg);
-    box-shadow: 0 0 30px rgba(255, 0, 255, 0.8);
+    transform: scale(1.1);
+    box-shadow: 
+        0 0 10px #ff0000,
+        0 0 20px #00ff00,
+        0 0 30px #0000ff;
+}
+
+button::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        rgba(255, 255, 255, 0.3),
+        transparent
+    );
+    transform: rotate(45deg);
+    animation: shine 3s infinite;
+}
+
+@keyframes shine {
+    0% {
+        transform: translateX(-100%) rotate(45deg);
+    }
+    100% {
+        transform: translateX(100%) rotate(45deg);
+    }
 }
 
 p {
@@ -1089,4 +1111,83 @@ a:hover::before {
 
 .strobe-active * {
     mix-blend-mode: difference;
+}
+
+@keyframes rainbow {
+    0% { color: red; }
+    20% { color: yellow; }
+    40% { color: lime; }
+    60% { color: blue; }
+    80% { color: magenta; }
+    100% { color: red; }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+    50% {
+        transform: scale(1.05);
+        filter: brightness(110%);
+    }
+    100% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+}
+
+@keyframes rainbow-text {
+    0% { color: red; }
+    14% { color: orange; }
+    28% { color: yellow; }
+    42% { color: green; }
+    57% { color: blue; }
+    71% { color: indigo; }
+    85% { color: violet; }
+    100% { color: red; }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px) rotate(-5deg); }
+    75% { transform: translateX(5px) rotate(5deg); }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes disco {
+    0% { background-color: #ff0000; }
+    20% { background-color: #00ff00; }
+    40% { background-color: #0000ff; }
+    60% { background-color: #ff00ff; }
+    80% { background-color: #ffff00; }
+    100% { background-color: #ff0000; }
+}
+
+@keyframes hue-rotate {
+    100% { filter: hue-rotate(360deg); }
+}
+
+@keyframes strobeColors {
+    0% { background-color: #ff0000; }
+    20% { background-color: #00ff00; }
+    40% { background-color: #0000ff; }
+    60% { background-color: #ff00ff; }
+    80% { background-color: #ffff00; }
+    100% { background-color: #00ffff; }
 }
