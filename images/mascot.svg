@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Face -->
+    <circle cx="100" cy="100" r="90" fill="#FFD700" stroke="#FF6B6B" stroke-width="4"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="70" cy="80" rx="15" ry="20" fill="white" stroke="#333" stroke-width="3"/>
+    <ellipse cx="130" cy="80" rx="15" ry="20" fill="white" stroke="#333" stroke-width="3"/>
+    <circle cx="70" cy="85" r="8" fill="#333"/>
+    <circle cx="130" cy="85" r="8" fill="#333"/>
+    
+    <!-- Eyebrows -->
+    <path d="M55 65 Q70 55 85 65" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    <path d="M115 65 Q130 55 145 65" fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Smile -->
+    <path d="M70 120 Q100 150 130 120" fill="none" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Comic Sans "C" -->
+    <path d="M160 40 Q170 30 180 40" fill="none" stroke="#FF6B6B" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Glasses -->
+    <rect x="55" y="75" width="30" height="5" fill="#4CAF50" rx="2"/>
+    <rect x="115" y="75" width="30" height="5" fill="#4CAF50" rx="2"/>
+    <path d="M85 77 L115 77" stroke="#4CAF50" stroke-width="5"/>
+    
+    <!-- Animation sparkles -->
+    <circle cx="40" cy="40" r="5" fill="#FFD700">
+        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="40" r="5" fill="#FFD700">
+        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+    <circle cx="100" cy="30" r="5" fill="#FFD700">
+        <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="1s"/>
+    </circle>
+</svg>
