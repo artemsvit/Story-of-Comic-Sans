@@ -532,12 +532,17 @@ nav {
 }
 
 /* Font Support */
+[lang="uk"] {
+    font-family: var(--main-font);
+}
+
 [lang="zh"] {
     font-family: var(--main-font), 'Microsoft YaHei', cursive;
 }
 
 [lang="ar"] {
     font-family: var(--main-font), 'Noto Sans Arabic', cursive;
+    direction: rtl;
 }
 
 /* Animation Adjustments for RTL */
