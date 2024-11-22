@@ -23,6 +23,54 @@ const translations = {
         'gallery-item1-title': 'CERN\'s Higgs Boson! 🔬',
         'gallery-item1-description': 'Scientists at CERN used Comic Sans for their GROUNDBREAKING Higgs boson discovery presentation! MIND = BLOWN! 🤯',
         'gallery-item1-year': '2012 🚀',
+        'gallery-item2-title': 'Comic Chat Era! 💻',
+        'gallery-item2-description': 'Comic Sans made chatting FUN in Microsoft Comic Chat! The ORIGINAL emoji! 🎉',
+        'gallery-item2-year': '1996 💫',
+        'gallery-item3-title': 'Beanie Babies! 🧸',
+        'gallery-item3-description': 'Remember those ADORABLE Beanie Babies tags? All in Comic Sans! NOSTALGIA overload! 💝',
+        'gallery-item3-year': '90s ✨',
+        'gallery-item4-title': 'Meme Legend! 🌟',
+        'gallery-item4-description': 'The ULTIMATE meme font! Making the internet FUNNIER since forever! 😂',
+        'gallery-item4-year': '2000s 🎭',
+        'gallery-item5-title': 'Font Rebellion! ✊',
+        'gallery-item5-description': 'Comic Sans sparked a REVOLUTION in design! Love it or hate it, you can\'t ignore it! 🎨',
+        'gallery-item5-year': '2010s 🎯',
+        'gallery-item6-title': 'Kids\' Favorite! 📚',
+        'gallery-item6-description': 'Making children\'s books MORE fun and READABLE! Perfect for young readers! 🌈',
+        'gallery-item6-year': '2023 🎨',
+        'gallery-item7-title': 'Birthday Fun! 🎂',
+        'gallery-item7-description': 'Making birthdays MORE special with the most FUN font! 🎈',
+        'gallery-item7-year': 'Forever! 🎉',
+        'gallery-item8-title': 'Sacred Design! ⛪',
+        'gallery-item8-description': 'Even churches LOVE Comic Sans! Making information EASIER to understand! 🙏',
+        'gallery-item8-year': 'Eternal! ✨',
+        'gallery-item9-title': 'Tasty Typography! 🍽️',
+        'gallery-item9-description': 'Making menus MORE appetizing! Bon appétit! 🍕',
+        'gallery-item9-year': 'Delicious! 🍳',
+        'gallery-item10-title': 'School Spirit! 📚',
+        'gallery-item10-description': 'Making school notices MORE fun! Parents LOVE it! 🎓',
+        'gallery-item10-year': 'Every semester! 📝',
+        'gallery-item11-title': 'Friendly Warnings! ⚠️',
+        'gallery-item11-description': 'Making warning signs LESS scary and MORE friendly! 🤗',
+        'gallery-item11-year': 'Safety first! 🛡️',
+        'gallery-item12-title': 'Office Fun! 📝',
+        'gallery-item12-description': 'Making office memos LESS boring! 💼',
+        'gallery-item12-year': '9 to 5! 🏢',
+        'gallery-item13-title': 'Wedding Whimsy! 💒',
+        'gallery-item13-description': 'Adding FUN to wedding invitations! Who says formal can\'t be FUN? 💍',
+        'gallery-item13-year': 'Forever! 💑',
+        'gallery-item14-title': 'Store Style! 🛍️',
+        'gallery-item14-description': 'Making shopping MORE fun with FRIENDLY signs! 🏪',
+        'gallery-item14-year': '24/7! 🔑',
+        'gallery-item15-title': 'Cafe Charm! ☕',
+        'gallery-item15-description': 'Making cafe menus MORE attractive! Time for a coffee break! ☕',
+        'gallery-item15-year': 'Freshly brewed! 🥐',
+        'gallery-item16-title': 'Project Power! 📊',
+        'gallery-item16-description': 'Adding PERSONALITY to school projects! Style points guaranteed! 🎨',
+        'gallery-item16-year': 'Homework time! 📓',
+        'gallery-item17-title': 'Sports Drama! 🏀',
+        'gallery-item17-description': 'Even Dan Gilbert used it in his FAMOUS letter to the Cavs! What a moment! 🏆',
+        'gallery-item17-year': '2010! 🔥',
         mascotSays: 'Hi! I\'m Comic Sans! 👋',
         supportChat: 'Need help? Ask me!',
         footer: '🎨 Comic Sans History - Making The Web FUN Since 1994! 🎨',
@@ -36,6 +84,12 @@ const translations = {
         'review2-author': '- Typography Magazine 🎯',
         'review3': '"You Can\'t Ignore This AMAZING Font!"',
         'review3-author': '- Font Reviews 🌟',
+        'review4': '"Makes Every Document Feel Like a Party!"',
+        'review4-author': '- Creative Blogging 🎉',
+        'review5': '"The Font That Changed Internet Culture!"',
+        'review5-author': '- Web Design Today 🌈',
+        'review6': '"Perfect for Making Memories!"',
+        'review6-author': '- Scrapbooking Monthly 💝',
         'usage-stat1': '95%',
         'usage-stat1-description': 'INCREDIBLE Recognition! 🎯',
         'usage-stat2': '1M+',
@@ -50,9 +104,18 @@ const translations = {
         'roadmap-item3-description': 'WORLDWIDE Fame!',
         'roadmap-item4': 'NOW! 💥',
         'roadmap-item4-description': 'CULTURAL ICON!',
-        'about-description': 'Comic Sans MS is the MOST INCREDIBLE casual font EVER created! 🎨',
-        'about-description2': 'Made by the LEGENDARY Vincent Connare in 1994 for Microsoft Bob! 🚀',
-        'about-description3': 'Now it\'s EVERYWHERE and EVERYONE knows it! 💫',
+        'about-description': 'Comic Sans MS is the MOST INCREDIBLE casual font EVER created! Born from the need to make computer interfaces more friendly and approachable! 🎨',
+        'about-description2': 'Made by the LEGENDARY Vincent Connare in 1994 for Microsoft Bob! He was inspired by comic book lettering while working on Microsoft\'s kid-friendly software! 🚀',
+        'about-description3': 'Now it\'s EVERYWHERE and EVERYONE knows it! From birthday cards to business presentations! 💫',
+        'about-inspiration-title': '✨ AMAZING Inspiration!',
+        'about-inspiration-text': 'Inspired by the AWESOME lettering in comic books like "The Dark Knight Returns" and "Watchmen"! Comic Sans captures that perfect blend of casual and readable! 📚',
+        'about-design-title': '🎨 UNIQUE Design Features!',
+        'about-design-text': 'Every letter is carefully crafted to be SUPER readable and friendly! No two letters are exactly the same - just like handwriting! Plus, it looks GREAT in both small and large sizes! ✏️',
+        'about-impact-title': '🌟 INCREDIBLE Impact!',
+        'about-impact-text': 'From humble beginnings to GLOBAL phenomenon! Used by scientists at CERN, in countless memes, and even in protest signs! It\'s more than a font - it\'s a CULTURAL ICON! 🎯',
+        'about-legacy-title': '🏆 LASTING Legacy!',
+        'about-legacy-text': 'Love it or hate it, Comic Sans has sparked more discussions about typography than any other font! It\'s made design more accessible and FUN for everyone! 🌈',
+        'download-button': '🎨 DOWNLOAD THE MAGIC! 🎨',
     },
     zh: {
         lang_name: '中文',
@@ -63,7 +126,7 @@ const translations = {
         reviews: '⭐ 评论！',
         usage: '📊 使用统计！',
         roadmap: '🗺️ 路线图！',
-        about: 'ℹ️ 关于！',
+        about: 'ℹ️ ABOUT!',
         'selling-points': '🌟 惊人特色！🌟',
         feature1: '💫 诞生于1994年！',
         'feature1-description': '由传奇设计师Vincent Connare创造！🎨',
@@ -79,7 +142,7 @@ const translations = {
         'gallery-item2-description': 'Comic Sans让Microsoft Comic Chat变得有趣！原创表情符号！🎉',
         'gallery-item2-year': '1996 💫',
         'gallery-item3-title': 'Beanie Babies！🧸',
-        'gallery-item3-description': '还记得这些可爱的Beanie Babies标签吗？全都用Comic Sans！怀旧！💝',
+        'gallery-item3-description': '还记得那些可爱的Beanie Babies标签吗？全都用Comic Sans！怀旧！💝',
         'gallery-item3-year': '90年代 ✨',
         'gallery-item4-title': '表情包传奇！🌟',
         'gallery-item4-description': '制作表情包的最佳字体！让互联网更有趣！😂',
@@ -113,7 +176,7 @@ const translations = {
         'gallery-item13-year': '永远！💑',
         'gallery-item14-title': '商店风格！🛍️',
         'gallery-item14-description': '用友好的标志让购物更愉快！🏪',
-        'gallery-item14-year': '24/7营业！🔑',
+        'gallery-item14-year': '24/7！🔑',
         'gallery-item15-title': '咖啡馆魅力！☕',
         'gallery-item15-description': '让咖啡馆菜单更吸引人！是时候喝杯咖啡了！☕',
         'gallery-item15-year': '新鲜出炉！🥐',
@@ -121,7 +184,7 @@ const translations = {
         'gallery-item16-description': '为学校项目增添个性！风格满分！🎨',
         'gallery-item16-year': '作业时间！📓',
         'gallery-item17-title': '体育戏剧！🏀',
-        'gallery-item17-description': '丹·吉尔伯特甚至在他著名的骑士队信中使用了它！多么精彩的时刻！🏆',
+        'gallery-item17-description': '甚至丹·吉尔伯特在他著名的骑士队信中使用了它！多么精彩的时刻！🏆',
         'gallery-item17-year': '2010！🔥',
         mascotSays: '嗨！我是Comic Sans！👋',
         supportChat: '需要帮助吗？问我吧！',
@@ -136,6 +199,12 @@ const translations = {
         'review2-author': '- 字体杂志 🎯',
         'review3': '"你无法忽视这个令人惊叹的字体！"',
         'review3-author': '- 字体评论 🌟',
+        'review4': '"让每个文档都充满欢乐！"',
+        'review4-author': '- 创意博客 🎉',
+        'review5': '"改变互联网文化的字体！"',
+        'review5-author': '- 网页设计今日 🌈',
+        'review6': '"完美记录美好回忆！"',
+        'review6-author': '- 剪贴簿月刊 💝',
         'usage-stat1': '95%',
         'usage-stat1-description': '令人难以置信的认可度！🎯',
         'usage-stat2': '1M+',
@@ -150,9 +219,18 @@ const translations = {
         'roadmap-item3-description': '全球声名！',
         'roadmap-item4': '现在！💥',
         'roadmap-item4-description': '文化标志！',
-        'about-description': 'Comic Sans MS是最令人难以置信的休闲字体！🎨',
-        'about-description2': '1994年由传奇设计师Vincent Connare为Microsoft Bob创造！🚀',
-        'about-description3': '现在它无处不在，人人都知道！💫',
+        'about-description': 'Comic Sans MS是最令人难以置信的休闲字体！源于让计算机界面更友好和亲切的需求！🎨',
+        'about-description2': '由传奇人物Vincent Connare在1994年为Microsoft Bob创造！他在为微软开发儿童友好软件时受到漫画字体的启发！🚀',
+        'about-description3': '现在它无处不在，人人都知道！从生日贺卡到商务演示！💫',
+        'about-inspiration-title': '✨ 惊人的灵感！',
+        'about-inspiration-text': '受到《蝙蝠侠：黑暗骑士归来》和《守望者》等漫画字体的启发！Comic Sans完美融合了休闲和可读性！📚',
+        'about-design-title': '🎨 独特的设计特点！',
+        'about-design-text': '每个字母都经过精心设计，超级易读且友好！没有两个字母完全相同 - 就像手写体一样！而且在大小尺寸下都看起来很棒！✏️',
+        'about-impact-title': '🌟 惊人的影响力！',
+        'about-impact-text': '从卑微的开始到全球现象！从CERN的科学家到无数的表情包，甚至抗议标语！它不仅仅是一种字体 - 它是一个文化图标！🎯',
+        'about-legacy-title': '🏆 持久的遗产！',
+        'about-legacy-text': '无论喜欢还是讨厌，Comic Sans引发了比任何其他字体更多的排版讨论！它让设计变得更容易理解和有趣！🌈',
+        'download-button': '🎨 下载魔法字体！🎨',
     },
     ar: {
         lang_name: 'العربية',
@@ -163,7 +241,7 @@ const translations = {
         reviews: '⭐ المراجعات!',
         usage: '📊 الإحصائيات!',
         roadmap: '🗺️ خارطة الطريق!',
-        about: 'ℹ️ حول!',
+        about: 'ℹ️ ABOUT!',
         'selling-points': '🌟 ميزات مذهلة! 🌟',
         feature1: '💫 ولد في 1994!',
         'feature1-description': 'تم إنشاؤه بواسطة الأسطوري Vincent Connare! 🎨',
@@ -236,6 +314,12 @@ const translations = {
         'review2-author': '- مجلة الخطوط 🎯',
         'review3': '"لا يمكنك تجاهل هذا الخط المذهل!"',
         'review3-author': '- مراجعات الخطوط 🌟',
+        'review4': '"يجعل كل مستند يشعر وكأنه حفلة!"',
+        'review4-author': '- التدوين الإبداعي 🎉',
+        'review5': '"الخط الذي غير ثقافة الإنترنت!"',
+        'review5-author': '- تصميم الويب اليوم 🌈',
+        'review6': '"مثالي لصنع الذكريات!"',
+        'review6-author': '- مجلة ألبوم القصاصات 💝',
         'usage-stat1': '95%',
         'usage-stat1-description': 'اعتراف مذهل! 🎯',
         'usage-stat2': '1M+',
@@ -250,9 +334,18 @@ const translations = {
         'roadmap-item3-description': 'شهرة عالمية!',
         'roadmap-item4': 'الآن! 💥',
         'roadmap-item4-description': 'أيقونة ثقافية!',
-        'about-description': 'كوميك سانس هو أكثر خط عادي مذهل تم إنشاؤه على الإطلاق! 🎨',
-        'about-description2': 'صممه الأسطوري Vincent Connare في 1994 لـ Microsoft Bob! 🚀',
-        'about-description3': 'الآن هو في كل مكان والجميع يعرفه! 💫',
+        'about-description': 'كوميك سانس هو أكثر خط عادي مذهل تم إنشاؤه على الإطلاق! ولد من الحاجة لجعل واجهات الكمبيوتر أكثر ودية وسهولة! 🎨',
+        'about-description2': 'صنعه الأسطوري Вінсент Коннаре у 1994 році для Microsoft Bob! Він надихався написами з коміксів під час роботи над дитячим програмним забезпеченням Microsoft! 🚀',
+        'about-description3': 'Тепер він всюди і кожен його знає! Від вітальних листівок до бізнес-презентацій! 💫',
+        'about-inspiration-title': '✨ ДИВОВИЖНЕ Натхнення!',
+        'about-inspiration-text': 'Натхненний ЧУДОВИМИ написами в коміксах, таких як "The Dark Knight Returns" та "Watchmen"! Comic Sans поєднує в собі ідеальний баланс невимушеності та читабельності! 📚',
+        'about-design-title': '🎨 УНІКАЛЬНІ Особливості Дизайну!',
+        'about-design-text': 'Кожна літера ретельно розроблена, щоб бути СУПЕР читабельною та дружньою! Жодні дві літери не є однаковими - як у справжньому рукописному тексті! До того ж, він виглядає ЧУДОВО як у малому, так і у великому розмірі! ✏️',
+        'about-impact-title': '🌟 НЕЙМОВІРНИЙ Вплив!',
+        'about-impact-text': 'Від скромних початків до ГЛОБАЛЬНОГО феномену! Використовується вченими в CERN, у безлічі мемів і навіть на протестних плакатах! Це більше, ніж шрифт - це КУЛЬТУРНА ІКОНА! 🎯',
+        'about-legacy-title': '🏆 ТРИВАЛА Спадщина!',
+        'about-legacy-text': 'Любіть його чи ненавидьте, Comic Sans викликав більше дискусій про типографіку, ніж будь-який інший шрифт! Він зробив дизайн більш доступним і ВЕСЕЛИМ для всіх! 🌈',
+        'download-button': '🎨 حمل السحر! 🎨',
     },
     uk: {
         lang_name: 'Українська',
@@ -263,10 +356,10 @@ const translations = {
         reviews: '⭐ ВІДГУКИ!',
         usage: '📊 СТАТИСТИКА!',
         roadmap: '🗺️ РОЗВИТОК!',
-        about: 'ℹ️ ПРО НАС!',
+        about: 'ℹ️ ABOUT!',
         'selling-points': '🌟 НЕЙМОВІРНІ Особливості! 🌟',
         feature1: '💫 Народився у 1994!',
-        'feature1-description': 'Створений легендарним Vincent Connare! 🎨',
+        'feature1-description': 'Створений легендарним Вінсентом Коннаре! 🎨',
         feature2: '🎯 Супер Дружній!',
         'feature2-description': 'Найбільш Доступний Шрифт! 🤗',
         feature3: '🌍 Світовий Вплив!',
@@ -336,6 +429,12 @@ const translations = {
         'review2-author': '- Журнал Типографії 🎯',
         'review3': '"Ви Не Можете Ігнорувати Цей ДИВОВИЖНИЙ Шрифт!"',
         'review3-author': '- Огляди Шрифтів 🌟',
+        'review4': '"Перетворює кожен документ на свято!"',
+        'review4-author': '- Креативний Блогінг 🎉',
+        'review5': '"Шрифт, що змінив культуру інтернету!"',
+        'review5-author': '- Веб-дизайн Сьогодні 🌈',
+        'review6': '"Ідеальний для створення спогадів!"',
+        'review6-author': '- Скрапбукінг Щомісяця 💝',
         'usage-stat1': '95%',
         'usage-stat1-description': 'НЕЙМОВІРНЕ Визнання! 🎯',
         'usage-stat2': '1M+',
@@ -350,129 +449,214 @@ const translations = {
         'roadmap-item3-description': 'СВІТОВА Слава!',
         'roadmap-item4': 'ЗАРАЗ! 💥',
         'roadmap-item4-description': 'КУЛЬТОВА ІКОНА!',
-        'about-description': 'Comic Sans MS - це НАЙБІЛЬШ НЕЙМОВІРНИЙ повсякденний шрифт, який коли-небудь створювали! 🎨',
-        'about-description2': 'Створений ЛЕГЕНДАРНИМ Vincent Connare у 1994 році для Microsoft Bob! 🚀',
-        'about-description3': 'Тепер він ВСЮДИ і КОЖЕН його знає! 💫',
-    }
+        'about-description': 'Comic Sans MS - це НАЙНЕЙМОВІРНІШИЙ повсякденний шрифт, який коли-небудь створювали! Народжений з потреби зробити комп\'ютерні інтерфейси більш дружніми та доступними! 🎨',
+        'about-description2': 'Створений ЛЕГЕНДАРНИМ Вінсентом Коннаре у 1994 році для Microsoft Bob! Він надихався написами з коміксів під час роботи над дитячим програмним забезпеченням Microsoft! 🚀',
+        'about-description3': 'Тепер він всюди і кожен його знає! Від вітальних листівок до бізнес-презентацій! 💫',
+        'about-inspiration-title': '✨ ДИВОВИЖНЕ Натхнення!',
+        'about-inspiration-text': 'Натхненний ЧУДОВИМИ написами в коміксах, таких як "The Dark Knight Returns" та "Watchmen"! Comic Sans поєднує в собі ідеальний баланс невимушеності та читабельності! 📚',
+        'about-design-title': '🎨 УНІКАЛЬНІ Особливості Дизайну!',
+        'about-design-text': 'Кожна літера ретельно розроблена, щоб бути СУПЕР читабельною та дружньою! Жодні дві літери не є однаковими - як у справжньому рукописному тексті! До того ж, він виглядає ЧУДОВО як у малому, так і у великому розмірі! ✏️',
+        'about-impact-title': '🌟 НЕЙМОВІРНИЙ Вплив!',
+        'about-impact-text': 'Від скромних початків до ГЛОБАЛЬНОГО феномену! Використовується вченими в CERN, у безлічі мемів і навіть на протестних плакатах! Це більше, ніж шрифт - це КУЛЬТУРНА ІКОНА! 🎯',
+        'about-legacy-title': '🏆 ТРИВАЛА Спадщина!',
+        'about-legacy-text': 'Любіть його чи ненавидьте, Comic Sans викликав більше дискусій про типографіку, ніж будь-який інший шрифт! Він зробив дизайн більш доступним і ВЕСЕЛИМ для всіх! 🌈',
+        'download-button': '🎨 ЗАВАНТАЖИТИ МАГІЮ! 🎨',
+    },
 };
 
-// Language switcher configuration
-const languageConfig = {
-    en: {
-        flag: '🇺🇸',
-        direction: 'ltr'
-    },
-    zh: {
-        flag: '🇨🇳',
-        direction: 'ltr'
-    },
-    ar: {
-        flag: '🇸🇦',
-        direction: 'rtl'
-    },
-    uk: {
-        flag: '🇺🇦',
-        direction: 'ltr'
-    }
-};
+function createLanguageDropdown() {
+    const languages = {
+        'en': '🇺🇸 English',
+        'uk': '🇺🇦 Українська',
+        'zh': '🇨🇳 中文',
+        'ar': '🇸🇦 العربية'
+    };
 
-function updateContent() {
-    // Update document title
-    document.title = translations[currentLanguage].title;
+    // Desktop dropdown
+    const dropdownButton = document.querySelector('.language-dropdown-button');
+    const currentLanguageSpan = dropdownButton.querySelector('.current-language');
+    const dropdown = document.querySelector('.language-dropdown');
     
-    // Update all elements with data-translate attribute
-    const elements = document.querySelectorAll('[data-translate]');
-    elements.forEach(element => {
+    // Update current language display
+    currentLanguageSpan.textContent = languages[currentLanguage];
+    
+    // Clear and populate dropdown
+    dropdown.innerHTML = '';
+    Object.entries(languages).forEach(([code, label]) => {
+        const option = document.createElement('button');
+        option.className = `language-option ${currentLanguage === code ? 'active' : ''}`;
+        option.setAttribute('data-language', code);
+        option.textContent = label;
+        option.onclick = (e) => {
+            e.stopPropagation();
+            setLanguage(code);
+            dropdown.classList.remove('show');
+            dropdownButton.classList.remove('active');
+        };
+        dropdown.appendChild(option);
+    });
+
+    // Toggle dropdown
+    dropdownButton.onclick = () => {
+        dropdown.classList.toggle('show');
+        dropdownButton.classList.toggle('active');
+    };
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+        if (!dropdownButton.contains(e.target) && !dropdown.contains(e.target)) {
+            dropdown.classList.remove('show');
+            dropdownButton.classList.remove('active');
+        }
+    });
+
+    // Mobile dropdown
+    const mobileContainer = document.querySelector('.mobile-language-switcher');
+    if (mobileContainer) {
+        // Create mobile dropdown button and container
+        mobileContainer.innerHTML = `
+            <button class="mobile-language-dropdown-button">
+                <span class="current-language">${languages[currentLanguage]}</span>
+                <span class="dropdown-arrow">▼</span>
+            </button>
+            <div class="mobile-language-dropdown"></div>
+        `;
+
+        const mobileButton = mobileContainer.querySelector('.mobile-language-dropdown-button');
+        const mobileDropdown = mobileContainer.querySelector('.mobile-language-dropdown');
+        const mobileCurrentLanguage = mobileButton.querySelector('.current-language');
+
+        // Populate mobile dropdown
+        Object.entries(languages).forEach(([code, label]) => {
+            const option = document.createElement('button');
+            option.className = `language-option ${currentLanguage === code ? 'active' : ''}`;
+            option.setAttribute('data-language', code);
+            option.textContent = label;
+            option.onclick = (e) => {
+                e.stopPropagation();
+                setLanguage(code);
+                mobileDropdown.classList.remove('show');
+                mobileButton.classList.remove('active');
+                mobileCurrentLanguage.textContent = label;
+            };
+            mobileDropdown.appendChild(option);
+        });
+
+        // Toggle mobile dropdown
+        mobileButton.onclick = (e) => {
+            e.stopPropagation();
+            mobileDropdown.classList.toggle('show');
+            mobileButton.classList.toggle('active');
+        };
+
+        // Close mobile dropdown when clicking outside
+        document.addEventListener('click', () => {
+            mobileDropdown.classList.remove('show');
+            mobileButton.classList.remove('active');
+        });
+    }
+}
+
+function setLanguage(lang) {
+    currentLanguage = lang;
+    document.documentElement.setAttribute('lang', lang);
+    document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+    
+    // Update current language in dropdown button
+    const currentLanguageSpan = document.querySelector('.current-language');
+    const languages = {
+        'en': '🇺🇸 English',
+        'uk': '🇺🇦 Українська',
+        'zh': '🇨🇳 中文',
+        'ar': '🇸🇦 العربية'
+    };
+    currentLanguageSpan.textContent = languages[lang];
+    
+    // Update active states
+    document.querySelectorAll('.language-option').forEach(option => {
+        option.classList.toggle('active', option.getAttribute('data-language') === lang);
+    });
+
+    // Update translations for all elements with data-translate
+    const elementsToTranslate = document.querySelectorAll('[data-translate]');
+    elementsToTranslate.forEach(element => {
         const key = element.getAttribute('data-translate');
-        if (translations[currentLanguage][key]) {
-            // Handle both textContent and placeholder attributes
-            if (element.tagName === 'INPUT' && element.type === 'text') {
-                element.placeholder = translations[currentLanguage][key];
-            } else {
-                element.textContent = translations[currentLanguage][key];
+        if (translations[lang] && translations[lang][key]) {
+            const translation = translations[lang][key];
+            
+            // Update text content
+            element.textContent = translation;
+            
+            // Update placeholder if it exists
+            if (element.hasAttribute('placeholder')) {
+                element.setAttribute('placeholder', translation);
+            }
+            
+            // Update aria-label if it exists
+            if (element.hasAttribute('aria-label')) {
+                element.setAttribute('aria-label', translation);
             }
         }
     });
 
     // Update gallery items
-    const galleryItems = document.querySelectorAll('.gallery-item');
-    galleryItems.forEach((item, index) => {
-        const itemNumber = index + 1;
-        const title = item.querySelector('.gallery-title');
-        const description = item.querySelector('.gallery-description');
-        const year = item.querySelector('.gallery-year');
+    for (let i = 1; i <= 17; i++) {
+        const titleKey = `gallery-item${i}-title`;
+        const descKey = `gallery-item${i}-description`;
+        const yearKey = `gallery-item${i}-year`;
 
-        const titleKey = `gallery-item${itemNumber}-title`;
-        const descKey = `gallery-item${itemNumber}-description`;
-        const yearKey = `gallery-item${itemNumber}-year`;
+        const titleElements = document.querySelectorAll(`[data-translate="${titleKey}"]`);
+        const descElements = document.querySelectorAll(`[data-translate="${descKey}"]`);
+        const yearElements = document.querySelectorAll(`[data-translate="${yearKey}"]`);
 
-        if (translations[currentLanguage][titleKey]) {
-            title.textContent = translations[currentLanguage][titleKey];
+        if (translations[lang] && translations[lang][titleKey]) {
+            titleElements.forEach(el => el.textContent = translations[lang][titleKey]);
         }
-        if (translations[currentLanguage][descKey]) {
-            description.textContent = translations[currentLanguage][descKey];
+        if (translations[lang] && translations[lang][descKey]) {
+            descElements.forEach(el => el.textContent = translations[lang][descKey]);
         }
-        if (translations[currentLanguage][yearKey]) {
-            year.textContent = translations[currentLanguage][yearKey];
+        if (translations[lang] && translations[lang][yearKey]) {
+            yearElements.forEach(el => el.textContent = translations[lang][yearKey]);
+        }
+    }
+
+    // Update placeholders for input elements
+    document.querySelectorAll('input[data-translate-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-translate-placeholder');
+        if (translations[lang] && translations[lang][key]) {
+            element.setAttribute('placeholder', translations[lang][key]);
         }
     });
-    
-    // Force a DOM reflow to ensure all changes are applied
-    document.body.style.display = 'none';
-    document.body.offsetHeight; // Force reflow
-    document.body.style.display = '';
-}
 
-function setLanguage(lang) {
-    if (!translations[lang]) return;
-    
-    currentLanguage = lang;
-    document.documentElement.lang = lang;
-    document.documentElement.dir = languageConfig[lang].direction;
-    
-    // Update all translated content
-    updateContent();
-    
-    // Save preference
-    localStorage.setItem('preferredLanguage', lang);
-}
-
-// Initialize language switcher
-function initializeLanguageSwitcher() {
-    const languageSwitcher = document.querySelector('.language-switcher');
-    languageSwitcher.innerHTML = ''; // Clear existing buttons
-    
-    // Create buttons for each language
-    Object.keys(translations).forEach(lang => {
-        const button = document.createElement('button');
-        button.textContent = `${languageConfig[lang].flag} ${translations[lang]['lang_name']}`;
-        button.setAttribute('data-lang', lang);
-        button.className = lang === currentLanguage ? 'active' : '';
-        
-        button.addEventListener('click', () => {
-            setLanguage(lang);
-            document.querySelectorAll('.language-switcher button').forEach(btn => {
-                btn.className = btn.getAttribute('data-lang') === lang ? 'active' : '';
-            });
-        });
-        
-        languageSwitcher.appendChild(button);
+    // Update aria-labels
+    document.querySelectorAll('[data-translate-aria]').forEach(element => {
+        const key = element.getAttribute('data-translate-aria');
+        if (translations[lang] && translations[lang][key]) {
+            element.setAttribute('aria-label', translations[lang][key]);
+        }
     });
+
+    // Save language preference
+    localStorage.setItem('preferred-language', lang);
+
+    // Force a re-render of dynamic content
+    const event = new CustomEvent('languageChanged', { 
+        detail: { 
+            language: lang,
+            translations: translations[lang]
+        } 
+    });
+    document.dispatchEvent(event);
 }
 
-// Initialize on page load
+// Initialize language dropdown when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    const storedLang = localStorage.getItem('preferredLanguage');
-    const browserLang = navigator.language.toLowerCase();
-    let defaultLang = 'en';
+    // Set initial language
+    const savedLanguage = localStorage.getItem('preferred-language');
+    if (savedLanguage) {
+        currentLanguage = savedLanguage;
+    }
     
-    if (browserLang.startsWith('zh')) defaultLang = 'zh';
-    if (browserLang.startsWith('ar')) defaultLang = 'ar';
-    if (browserLang.startsWith('uk')) defaultLang = 'uk';
-    
-    // Initialize language
-    setLanguage(storedLang || defaultLang);
-    
-    // Initialize switcher
-    initializeLanguageSwitcher();
+    createLanguageDropdown();
+    setLanguage(currentLanguage);
 });

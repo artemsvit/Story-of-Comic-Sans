@@ -16,7 +16,13 @@
 </head>
 <body>
     <div class="language-switcher">
-        <!-- Buttons will be added by JavaScript -->
+        <button class="language-dropdown-button">
+            <span class="current-language">🇺🇸 English</span>
+            <span class="dropdown-arrow">▼</span>
+        </button>
+        <div class="language-dropdown">
+            <!-- Language options will be added by JavaScript -->
+        </div>
     </div>
 
     <header>
@@ -30,6 +36,11 @@
                     <li><a href="#usage" data-translate="usage">📊 USAGE!</a></li>
                     <li><a href="#roadmap" data-translate="roadmap">🗺️ ROADMAP!</a></li>
                     <li><a href="#about" data-translate="about">ℹ️ ABOUT!</a></li>
+                    <li class="mobile-language-switcher">
+                        <div class="language-buttons">
+                            <!-- Language buttons will be added by JavaScript -->
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -86,123 +97,123 @@
                     </div>
                 </div>
 
-                <h2 class="gallery-title" data-translate="gallery-title">🌟 INCREDIBLE Real-World Examples! 🌟</h2>
+                <h2 class="gallery-main-title" data-translate="gallery-title">🌟 INCREDIBLE Real-World Examples! 🌟</h2>
                 <div class="gallery">
                     <div class="gallery-item">
                         <img src="images/cern_higgs.jpg" alt="CERN Higgs Boson Announcement" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item1-title">CERN's Higgs Boson! 🔬</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item1-title">CERN's Higgs Boson! 🔬</h3>
                         <p class="gallery-description" data-translate="gallery-item1-description">Scientists at CERN used Comic Sans for their GROUNDBREAKING Higgs boson discovery presentation! MIND = BLOWN! 🤯</p>
                         <span class="gallery-year" data-translate="gallery-item1-year">2012 🚀</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/comic_chat.jpg" alt="Microsoft Comic Chat" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item2-title">Comic Chat Era! 💻</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item2-title">Comic Chat Era! 💻</h3>
                         <p class="gallery-description" data-translate="gallery-item2-description">Comic Sans made chatting FUN in Microsoft Comic Chat! The ORIGINAL emoji! 🎉</p>
                         <span class="gallery-year" data-translate="gallery-item2-year">1996 💫</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/beanie_babies.jpg" alt="Beanie Babies Tags" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item3-title">Beanie Babies! 🧸</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item3-title">Beanie Babies! 🧸</h3>
                         <p class="gallery-description" data-translate="gallery-item3-description">Remember those ADORABLE Beanie Babies tags? All in Comic Sans! NOSTALGIA overload! 💝</p>
                         <span class="gallery-year" data-translate="gallery-item3-year">1990s ✨</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/meme.jpg" alt="Internet Memes" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item4-title">Meme Legend! 🌟</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item4-title">Meme Legend! 🌟</h3>
                         <p class="gallery-description" data-translate="gallery-item4-description">The ULTIMATE meme font! Making the internet FUNNIER since forever! 😂</p>
                         <span class="gallery-year" data-translate="gallery-item4-year">2000s 🎭</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/protest_sign.jpg" alt="Font Protest Sign" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item5-title">Font Rebellion! ✊</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item5-title">Font Rebellion! ✊</h3>
                         <p class="gallery-description" data-translate="gallery-item5-description">Comic Sans sparked a REVOLUTION in design! Love it or hate it, you can't ignore it! 🎨</p>
                         <span class="gallery-year" data-translate="gallery-item5-year">2010s 🎯</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/kids_book.jpg" alt="Children's Book" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item6-title">Kids' Favorite! 📚</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item6-title">Kids' Favorite! 📚</h3>
                         <p class="gallery-description" data-translate="gallery-item6-description">Making children's books MORE fun and READABLE! Perfect for young readers! 🌈</p>
                         <span class="gallery-year" data-translate="gallery-item6-year">2023 🎨</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/birthday_card.jpg" alt="Birthday Card" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item7-title">Birthday Fun! 🎂</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item7-title">Birthday Fun! 🎂</h3>
                         <p class="gallery-description" data-translate="gallery-item7-description">Making birthdays EXTRA special with the most FUN font ever! 🎈</p>
                         <span class="gallery-year" data-translate="gallery-item7-year">All time! 🎉</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/church_sign.jpg" alt="Church Sign" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item8-title">Divine Design! ⛪</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item8-title">Divine Design! ⛪</h3>
                         <p class="gallery-description" data-translate="gallery-item8-description">Even churches love Comic Sans! Making messages more APPROACHABLE! 🙏</p>
                         <span class="gallery-year" data-translate="gallery-item8-year">Eternal! ✨</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/restaurant_menu.jpg" alt="Restaurant Menu" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item9-title">Tasty Typography! 🍽️</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item9-title">Tasty Typography! 🍽️</h3>
                         <p class="gallery-description" data-translate="gallery-item9-description">Making menus more APPETIZING one letter at a time! YUM! 🍕</p>
                         <span class="gallery-year" data-translate="gallery-item9-year">Delicious! 🍳</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/school_newsletter.jpg" alt="School Newsletter" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item10-title">School Spirit! 📚</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item10-title">School Spirit! 📚</h3>
                         <p class="gallery-description" data-translate="gallery-item10-description">Making school newsletters FUN to read! Parents love it! 🎓</p>
                         <span class="gallery-year" data-translate="gallery-item10-year">Every semester! 📝</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/warning_sign.jpg" alt="Warning Sign" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item11-title">Friendly Warning! ⚠️</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item11-title">Friendly Warning! ⚠️</h3>
                         <p class="gallery-description" data-translate="gallery-item11-description">Making warning signs less SCARY and more FRIENDLY! 🤗</p>
                         <span class="gallery-year" data-translate="gallery-item11-year">Safety first! 🛡️</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/office_note.jpg" alt="Office Note" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item12-title">Office Fun! 📝</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item12-title">Office Fun! 📝</h3>
                         <p class="gallery-description" data-translate="gallery-item12-description">Making office notes less BORING and more EXCITING! 💼</p>
                         <span class="gallery-year" data-translate="gallery-item12-year">9 to 5! 🏢</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/wedding_invite.jpg" alt="Wedding Invitation" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item13-title">Wedding Whimsy! 💒</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item13-title">Wedding Whimsy! 💒</h3>
                         <p class="gallery-description" data-translate="gallery-item13-description">Adding FUN to wedding invitations! Who says formal can't be FUN? 💍</p>
                         <span class="gallery-year" data-translate="gallery-item13-year">Forever! 💑</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/store_sign.jpg" alt="Store Sign" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item14-title">Shop Style! 🛍️</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item14-title">Shop Style! 🛍️</h3>
                         <p class="gallery-description" data-translate="gallery-item14-description">Making shopping more ENJOYABLE with friendly store signs! 🏪</p>
                         <span class="gallery-year" data-translate="gallery-item14-year">Open 24/7! 🔑</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/cafe_menu.jpg" alt="Cafe Menu" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item15-title">Cafe Charm! ☕</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item15-title">Cafe Charm! ☕</h3>
                         <p class="gallery-description" data-translate="gallery-item15-description">Making cafe menus more INVITING! Time for a coffee break! ☕</p>
                         <span class="gallery-year" data-translate="gallery-item15-year">Fresh brewed! 🥐</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/school_project.jpg" alt="School Project" class="gallery-image" loading="lazy">
-                        <h3 class="gallery-title" data-translate="gallery-item16-title">Project Power! 📊</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item16-title">Project Power! 📊</h3>
                         <p class="gallery-description" data-translate="gallery-item16-description">Making school projects POP with personality! A+ for style! 🎨</p>
                         <span class="gallery-year" data-translate="gallery-item16-year">Homework time! 📓</span>
                     </div>
 
                     <div class="gallery-item">
                         <img src="images/cavs_letter.jpg" alt="Cavaliers Letter" class="gallery-image">
-                        <h3 class="gallery-title" data-translate="gallery-item17-title">Sports Drama! 🏀</h3>
+                        <h3 class="gallery-item-title" data-translate="gallery-item17-title">Sports Drama! 🏀</h3>
                         <p class="gallery-description" data-translate="gallery-item17-description">Even Dan Gilbert used it for his FAMOUS Cavs letter! What a moment! 🏆</p>
                         <span class="gallery-year" data-translate="gallery-item17-year">2010! 🔥</span>
                     </div>
@@ -215,16 +226,40 @@
                 <h2 data-translate="reviews">⭐ MIND-BLOWING Reviews! ⭐</h2>
                 <div class="reviews-grid">
                     <div class="review">
-                        <p data-translate="review1">"ABSOLUTELY PERFECT for fun content!"</p>
-                        <cite data-translate="review1-author">- Design Weekly 🏆</cite>
+                        <div class="review-content">
+                            <p class="review-text" data-translate="review1"></p>
+                            <p class="review-author" data-translate="review1-author"></p>
+                        </div>
                     </div>
                     <div class="review">
-                        <p data-translate="review2">"The Most CONTROVERSIAL Font Ever!"</p>
-                        <cite data-translate="review2-author">- Typography Magazine 🎯</cite>
+                        <div class="review-content">
+                            <p class="review-text" data-translate="review2"></p>
+                            <p class="review-author" data-translate="review2-author"></p>
+                        </div>
                     </div>
                     <div class="review">
-                        <p data-translate="review3">"You Can't Ignore This AMAZING Font!"</p>
-                        <cite data-translate="review3-author">- Font Reviews 🌟</cite>
+                        <div class="review-content">
+                            <p class="review-text" data-translate="review3"></p>
+                            <p class="review-author" data-translate="review3-author"></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review-content">
+                            <p class="review-text" data-translate="review4"></p>
+                            <p class="review-author" data-translate="review4-author"></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review-content">
+                            <p class="review-text" data-translate="review5"></p>
+                            <p class="review-author" data-translate="review5-author"></p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review-content">
+                            <p class="review-text" data-translate="review6"></p>
+                            <p class="review-author" data-translate="review6-author"></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -276,12 +311,36 @@
 
         <section id="about" class="section">
             <div class="container">
-                <h2 data-translate="about">ℹ️ About This AMAZING Font! ℹ️</h2>
-                <p data-translate="about-description">Comic Sans MS is the MOST INCREDIBLE casual font EVER created! 🎨</p>
-                <p data-translate="about-description2">Made by the LEGENDARY Vincent Connare in 1994 for Microsoft Bob! 🚀</p>
-                <p data-translate="about-description3">Now it's EVERYWHERE and EVERYONE knows it! 💫</p>
+                <h2 data-translate="about">ℹ️ ABOUT!</h2>
+                <p data-translate="about-description">Comic Sans MS is the MOST INCREDIBLE casual font EVER created! Born from the need to make computer interfaces more friendly and approachable! 🎨</p>
+                <p data-translate="about-description2">Made by the LEGENDARY Vincent Connare in 1994 for Microsoft Bob! He was inspired by comic book lettering while working on Microsoft's kid-friendly software! 🚀</p>
+                <p data-translate="about-description3">Now it's EVERYWHERE and EVERYONE knows it! From birthday cards to business presentations! 💫</p>
+                
+                <div class="about-details">
+                    <div class="detail-item">
+                        <h3 data-translate="about-inspiration-title">✨ AMAZING Inspiration!</h3>
+                        <p data-translate="about-inspiration-text">Inspired by the AWESOME lettering in comics like "The Dark Knight Returns" and "Watchmen"! Comic Sans strikes the perfect balance between casual and readable! 📚</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3 data-translate="about-design-title">🎨 UNIQUE Design Features!</h3>
+                        <p data-translate="about-design-text">Every letter is carefully crafted to be SUPER readable and friendly! No two letters are exactly the same - just like handwriting! Plus, it looks GREAT in both small and large sizes! ✏️</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3 data-translate="about-impact-title">🌟 INCREDIBLE Impact!</h3>
+                        <p data-translate="about-impact-text">From humble beginnings to GLOBAL phenomenon! Used by scientists at CERN, in countless memes, and even in protest signs! It's more than a font - it's a CULTURAL ICON! 🎯</p>
+                    </div>
+                    <div class="detail-item">
+                        <h3 data-translate="about-legacy-title">🏆 LASTING Legacy!</h3>
+                        <p data-translate="about-legacy-text">Love it or hate it, Comic Sans has sparked more discussions about typography than any other font! It's made design more accessible and FUN for everyone! 🌈</p>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <div class="download-container">
+            <a href="https://artemsvit.github.io/Story-of-Comic-Sans/fonts/font.zip" class="download-button" download data-translate="download-button">🎨 DOWNLOAD THE MAGIC! 🎨</a>
+        </div>
+
     </main>
 
     <div class="mascot">

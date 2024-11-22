@@ -3,30 +3,36 @@ class SupportChat {
         this.isOpen = false;
         this.createChatUI();
         this.bindEvents();
+        
+        // Subscribe to language changes
+        document.addEventListener('languageChanged', (e) => {
+            this.updateChatLanguage(e.detail.language);
+        });
+        
+        // Set initial language
+        const currentLang = localStorage.getItem('preferredLanguage') || 'en';
+        this.updateChatLanguage(currentLang);
     }
 
     createChatUI() {
+        const currentLang = localStorage.getItem('preferredLanguage') || 'en';
+        
         const chatHTML = `
             <div id="support-chat" class="support-chat">
                 <div class="chat-header">
                     <img src="images/mascot.svg" alt="Support Mascot" class="chat-mascot">
-                    <span>Підтримка Comic Sans</span>
+                    <span class="chat-title"></span>
                     <button class="close-chat">×</button>
                 </div>
                 <div class="chat-messages">
                     <div class="message support">
                         <img src="images/mascot.svg" alt="Support Mascot" class="message-avatar">
-                        <div class="message-content">
-                            👋 Привіт! Я ваш помічник Comic Sans! Чим можу допомогти сьогодні?
+                        <div class="message-content welcome-message">
                         </div>
                     </div>
                 </div>
                 <div class="chat-input">
-                    <textarea 
-                        placeholder="Введіть ваше повідомлення тут..."
-                        rows="2"
-                        maxlength="500"
-                    ></textarea>
+                    <textarea class="chat-textarea"></textarea>
                     <button class="send-message">
                         <svg viewBox="0 0 24 24" width="24" height="24">
                             <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
@@ -38,8 +44,13 @@ class SupportChat {
         document.body.insertAdjacentHTML('beforeend', chatHTML);
         
         this.chatElement = document.getElementById('support-chat');
-        this.messageInput = this.chatElement.querySelector('textarea');
+        this.messageInput = this.chatElement.querySelector('.chat-textarea');
         this.messagesContainer = this.chatElement.querySelector('.chat-messages');
+        this.chatTitle = this.chatElement.querySelector('.chat-title');
+        this.welcomeMessage = this.chatElement.querySelector('.welcome-message');
+        
+        // Set initial welcome message
+        this.updateWelcomeMessage(currentLang);
     }
 
     bindEvents() {
@@ -196,6 +207,45 @@ class SupportChat {
         }
 
         this.addMessage(response);
+    }
+
+    updateChatLanguage(lang) {
+        // Update chat title
+        const translations = {
+            en: 'Support Chat',
+            uk: 'Підтримка Comic Sans',
+            zh: 'Comic Sans 支持',
+            ar: 'دعم Comic Sans'
+        };
+        this.chatTitle.textContent = translations[lang] || 'Support Chat';
+        
+        // Update textarea placeholder
+        const placeholders = {
+            en: "Type your message here...",
+            uk: "Введіть ваше повідомлення тут...",
+            zh: "在这里输入您的消息...",
+            ar: "اكتب رسالتك هنا..."
+        };
+        this.messageInput.placeholder = placeholders[lang] || placeholders.en;
+        
+        // Update welcome message
+        this.updateWelcomeMessage(lang);
+    }
+    
+    updateWelcomeMessage(lang) {
+        if (this.welcomeMessage) {
+            this.welcomeMessage.textContent = this.getWelcomeMessage(lang);
+        }
+    }
+
+    getWelcomeMessage(lang) {
+        const welcomeMessages = {
+            en: "👋 Hi! I'm your Comic Sans assistant! How can I help you today?",
+            uk: "👋 Привіт! Я ваш помічник Comic Sans! Чим можу допомогти сьогодні?",
+            zh: "👋 你好！我是你的 Comic Sans 助手！今天我能帮你什么？",
+            ar: "👋 مرحباً! أنا مساعد Comic Sans! كيف يمكنني مساعدتك اليوم؟"
+        };
+        return welcomeMessages[lang] || welcomeMessages.en;
     }
 
     scrollToBottom() {
